@@ -2,21 +2,26 @@ import CustomTheme from "../context/CustomTheme"
 
 
 const styles = {
+    taskMasterLogo:{
+        display: ["none", "none", "inline-block", "inline-block"]
+    },
     mainContainer:{
         backgroundColor: "#99c7f2",
-        height: "90vh",
+        height: "88vh",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center"
     },
     formContainer:{
+        // backgroundColor: ["orange", "red", "green", "yellow"],
         display: "flex",
         justifyContent: "center",
-        alignItems: "space-around",
-        padding: "2em 1em",
-        minHeight: "450px",
-        maxWidth: "400px"
+        alignItems: "space-between",
+        padding: "1em 1em",
+        minHeight: "500px",
+        minWidth: ["85%","70%", "40%", null],
+        maxWidth: ["85%","70%", "40%", "500px"]
     },
     formInnerContainer:{
         display: "flex",
